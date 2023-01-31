@@ -47,29 +47,57 @@
 }
 
 @media screen and (max-width: 576px) {
-    .menu {
-        position: fixed;
-        flex-direction: column;
-        width: 90%;
-        height: 100%;
-        background-color: #324154;
-        top: 0;
-        left: 0;
-        padding-top: 100px;
-    }
-
-    .menu__wrapper {
-        flex-direction: column;
-    }
-    .menu__element:not(:first-child) {
-        margin-left: 0;
-        margin-top: 15px;
-      }
-
-      .menu__btn {
-        margin-left: 0;
-        margin-top: 32px;
-      }
+  .menu__wrapper {
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    width: 90%;
+    height: 115vh;
+    background-color: #324154;
+    top: 0;
+    left: 0;
+    padding-top: 100px;
+    transform: translateX(-100%);
+    transition: 0.3s all;
+    z-index: 2;
   }
 
+  .menu__wrapper-active {
+    transform: translateX(0%);
+  }
 
+  .open-menu {
+    display: block;
+  }
+
+  .dropdown span {
+    display: none;
+  }
+
+  .close-menu {
+    display: block;
+  }
+
+  .dropdownMenuC {
+    display: block;
+    background-color: rgb(61, 76, 97);
+    transform: translateY(calc((15vh + 50px) - (30vh + 100px)));
+  }
+
+  .dropdown__menu {
+    display: none;
+  }
+
+  .menu__element:not(:first-child) {
+    margin-left: 0;
+    margin-top: 15px;
+  }
+
+  .menu__btn {
+    margin-left: 32px;
+  }
+
+  .promo__list {
+    flex-wrap: wrap;
+  }
+}

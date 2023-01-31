@@ -3,11 +3,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
-}
-
-/* Убираем внутренние отступы */
-ul[class],
-ol[class] {
+  margin: 0;
   padding: 0;
 }
 
@@ -18,8 +14,6 @@ h2,
 h3,
 h4,
 p,
-ul[class],
-ol[class],
 li,
 figure,
 figcaption,
