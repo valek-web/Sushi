@@ -26,6 +26,12 @@
     width: 100%;
     max-width: 100%;
   }
+  .cards .container {
+    padding: 0 1rem;
+  }
+  .cards__wrapper {
+    gap: 20px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -51,7 +57,7 @@
   }
   .info-box:nth-child(2n) {
     flex-direction: column-reverse;
-  } 
+  }
 
   .trading__wrapper {
     flex-direction: column;
@@ -63,6 +69,16 @@
 
   section {
     padding: 5rem 0 !important;
+  }
+
+  .cards__wrapper {
+    flex-direction: column;
+  }
+
+  .footer__top {
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
   }
 }
 
@@ -126,5 +142,33 @@
   .trading-link {
     flex-wrap: wrap;
     gap: 30px;
+  }
+
+  /*** ***/
+  .cards__title {
+    text-align: center;
+  }
+
+  .help_wrapper {
+    padding: 1.5rem;
+  }
+  .help__box {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .help-card {
+    transform: translateY(0);
+  }
+
+  .help__title {
+    text-align: center;
+    line-height: 1;
+  }
+  .help__descr {
+    text-align: center;
+  }
+
+  .footer {
+    display: none;
   }
 }
