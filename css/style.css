@@ -605,7 +605,7 @@ body {
   color: rgb(59 130 246);
 }
 
-.trading__title-silver {
+.text-silver {
   color: rgb(163 163 163);
   display: inline-block;
 }
@@ -772,4 +772,253 @@ body {
 .payment-info .link-box {
   margin-top: 12px;
   display: inline-block;
+}
+
+/*** ***/
+
+.cards {
+  padding: 10rem 0;
+}
+
+.cards .container {
+  padding: 0;
+}
+
+.cards__title {
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 1;
+  color: #fff;
+}
+
+.text-red {
+  color: rgb(236 72 153);
+}
+
+.cards__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5rem;
+}
+
+.card {
+  padding: 30px;
+  background-color: rgb(38 38 38);
+  border-radius: 20px;
+  cursor: pointer;
+  max-width: 500px;
+  width: 100%;
+  min-height: 240px;
+  transition: 0.15s all;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.card__title {
+  color: rgb(163 163 163);
+  line-height: 1.25rem;
+  font-weight: 500;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.card__title img {
+  width: 40px;
+  height: 40px;
+  margin-right: 12px;
+}
+
+.card__descr {
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  margin-top: 1rem;
+}
+
+.card .hover-link {
+  margin-top: 1rem;
+  display: inline-block;
+}
+
+/*** ***/
+
+.help {
+  padding: 10rem 0;
+}
+
+.help_wrapper {
+  padding: 2.5rem;
+  border: solid 1px rgb(23 23 23);
+  border-radius: 1rem;
+}
+
+.help__title {
+  font-weight: 600;
+  font-size: 3rem;
+}
+
+.help__descr {
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  max-width: 360px;
+  margin-top: 0.5rem;
+}
+
+.help__box {
+  margin-top: 5rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.help-contact {
+  max-width: 233px;
+}
+
+.help-contact__title {
+  color: rgb(255 255 255);
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.help-contact__descr {
+  color: rgb(163 163 163);
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.help-contact__link {
+  margin-top: 1rem;
+}
+
+.help-contact__item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  cursor: pointer;
+}
+
+.help-contact__item:not(:first-child) {
+  margin-top: 1rem;
+}
+
+.help-card {
+  padding: 1.5rem;
+  background-color: rgb(23 23 23);
+  border-radius: 1rem;
+  transform: translateY(-1.25rem);
+  max-width: 587px;
+  width: 100%;
+}
+
+.help-card__title {
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  color: #fff;
+}
+
+.help-card__descr {
+  color: rgb(163 163 163);
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  margin-top: 0.5rem;
+}
+
+.help-card .link-box {
+  margin: 1.5rem 0 0.5rem;
+  display: inline-block;
+}
+
+/*** ***/
+
+.footer {
+  padding-top: 72px;
+}
+
+.footer__top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.footer-logo {
+  max-width: 176px;
+  width: 100%;
+}
+
+.footer-logo img {
+  width: 85px;
+}
+
+.footer-logo__descr {
+  line-height: 1rem;
+  font-size: 0.625rem;
+  color: rgb(148 163 184);
+  margin-top: 1.25rem;
+}
+
+.footer-logo__socialNetwork {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.25rem;
+}
+
+.color_svg {
+  color: rgb(203 213 225);
+}
+
+.footer-link__title {
+  font-size: 0.75rem;
+  line-height: 1rem;
+  color: rgb(241 245 249);
+  font-weight: 500;
+}
+
+.footer-link__item a {
+  font-size: 0.75rem;
+  line-height: 1rem;
+  color: rgb(148 163 184);
+  text-decoration: none;
+}
+
+.footer-link__item a:hover {
+  text-decoration: underline;
+}
+
+.footer-link > .footer-link {
+  margin-top: 1.5rem;
+} 
+
+.footer__bottom {
+  margin: 5rem 0 1.25rem;
+  padding: 0.5rem 0;
+  border-top: rgb(30 41 59) solid 2px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__label {
+  color: rgb(148 163 184);
+  line-height: 1.25rem;
+  font-weight: 400;
+  font-size: .75rem;
+}
+
+.footer__bottom-link {
+  color: rgb(203 213 225);
+  line-height: 1.25rem;
+  font-weight: 500;
+  font-size: .75rem;
+  padding: 0 .75rem;
 }
