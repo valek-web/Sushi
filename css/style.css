@@ -368,7 +368,8 @@ body {
   padding: 1rem;
   background-color: rgb(51 65 85);
   border-radius: 0.75rem 0.75rem 0 0;
-  width: 400px;
+  width: 100%;
+  max-width: 400px;
   position: relative;
 }
 

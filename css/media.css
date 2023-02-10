@@ -171,4 +171,16 @@
   .footer {
     display: none;
   }
+
+  .box-input_i {
+    font-size: 1.275rem;
+  }
+
+  .promo__cart-w {
+    width: 98%;
+  }
+
+  .menu-app {
+    display: none;
+  }
 }
