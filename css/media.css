@@ -44,6 +44,26 @@
   .content-list:not(:first-child) {
     margin: 0;
   }
+
+  .info-box {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .info-box:nth-child(2n) {
+    flex-direction: column-reverse;
+  } 
+
+  .trading__wrapper {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .payment-window__wrapper {
+    flex-direction: column;
+  }
+
+  section {
+    padding: 5rem 0 !important;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -99,5 +119,12 @@
 
   .promo__list {
     flex-wrap: wrap;
+  }
+
+  /*** ***/
+
+  .trading-link {
+    flex-wrap: wrap;
+    gap: 30px;
   }
 }
