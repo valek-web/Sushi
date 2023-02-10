@@ -473,6 +473,7 @@ body {
   justify-content: space-between;
   align-items: center;
   margin-top: 120px;
+  gap: 25px;
 }
 
 .promo__itemT {
